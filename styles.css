@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+textarea{
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+.encriptar-button{
+    background-color: #6C306A;
+/* color: ; */
+}
+
+section, article{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
