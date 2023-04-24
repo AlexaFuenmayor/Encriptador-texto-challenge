@@ -6,25 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <title>Encriptador</title>
 </head>
 
 <body>
     <header>
-        <img src="" alt="logo">
+        <img class="logo" src="LOGO.png" alt="logo">
     </header>
-
     <section>
-        <textarea placeholder="Ingrese el texto aquí"></textarea>
-        <p>Solo palabras sin acentos</p>
-        <button class="encriptar-button">Encriptar</button>
-        <button>Desencriptar</button>
+        <textarea class="input"  placeholder="Ingrese el texto aquí"></textarea>
+        <i class="fi fi-rr-exclamation">Solo palabras sin acentos</i>
     </section>
-    <article>
+    <button id="encriptar" class="encriptar-button">Encriptar</button>
+    <button class="desencriptar-button" >Desencriptar</button>
+    <article >
         <h2>Ningún mensaje fue encontrado</h2>
-        <p>Ingresa el texto que desees empcriptar o desencriptar</p>
+        <p id="texto-encriptado">Ingresa el texto que desees empcriptar o desencriptar</p>
     </article>
 
+    <script src="encriptador.js"></script>
 </body>
-
 </html>
