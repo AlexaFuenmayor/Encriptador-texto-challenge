@@ -106,3 +106,15 @@ section i{
 .parrafo-encriptado{
     width: 80vw;
 }
+
+.imagen-prueba{
+    display: none;
+}
+
+.ver-imagen{
+    display: block;
+}
+
+.imagen-none{
+    display: none;
+}
